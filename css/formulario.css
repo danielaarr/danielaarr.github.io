@@ -1,0 +1,55 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html{
+  
+        font-family: 'Open Sans';
+        background-color: rgba(255, 166, 0, 0.514);
+        background-size: cover;
+        background-image: url(/SRC/img/whattt.jpg);
+        background-attachment: fixed;
+        margin: 0;
+    }
+
+    form{
+        width: 250px;
+        margin: auto;
+        background: #eea3789a;
+        padding: 15px 10px;
+        margin-top: 50px;
+        align-items: baseline;
+        border-radius: 20px;
+    }
+    h2 {
+        color: #ad3636;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom:15px ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+
+    input, textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: auto 15px;
+        
+        font-size:17px ;
+    }
+
+    textarea{
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+
+    }
+
+    #boton {
+        padding: 20px;
+
+    }
+

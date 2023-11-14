@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        
+        font-family: 'Open Sans';
+        background-image: url(/SRC/img/Portafolioimage.png);
+        background-size: 100VW 100vh;
+        background-color: rgba(255, 166, 0, 0.514);
+    }
+    h1{
+    
+        color: #FF9052;
+        padding-left: 50px;
+        padding-top: 50px;
+        align-items:center;
+        text-shadow:
+         rgb(0, 0, 0) 0px 2px 30px;
+ 
+    }
