@@ -4,22 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/principal.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     
-    <title>Document</title>
+    
+    <title>CONTACT ME</title>
 </head>
-<body>
-  <form action="">
-    <h2>CONTACT</h2>
-    <input type="text" name="Name" placeholder="Nombre">
-    <input type="text" name="Email" placeholder="Email">
-    <input type="text" name="telephone" placeholder="Phone">
-    <textarea name="mensaje" placeholder="Leave a Message">
+<body class="grid-container">
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid" id="contenedor">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="imagen"> <img</a>
+              <a class="nav-link active" aria-current="page" href="./Principal.html">HOME</a>
+              <a class="nav-link" href="./Softwares.html">SKILLS</a>
+              <a class="nav-link" href="./portafolio.html">PROJECTS</a>
+              <a class="nav-link" href="./formulario.html">CONTACT ME</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+  
+  <section id="form">
+    <h1 id="move">CONTACT ME</h1>
+    <div id="alert-container"></div>
+      <div class="container-form" >
+          <form id="form-contacto">
+      <div class="mb-5">
+          <label for="cliente"  class="form-label">Name</label>
+          <input type="email" class="form-control" id="cliente" name="cliente" placeholder="writeyourname">
+      </div>
+      <div class="mb-5">
+          <label for="correocliente" class="form-label">Email address</label>
+          <input type="email" class="form-control"id="correocliente"  name="correocliente"  placeholder="name@example.com">
+      </div>
 
-    </textarea>
-    <input type="button" value="Send" id="BtnSend">
-
+        <div class="mb-5">
+          <label for="mensajitoparami"  class="form-label">Leave a message</label>
+          <textarea class="form-control" id="mensajitoparami" name="mensajitoparami" rows="3" placeholder="message" ></textarea>
+        </div>
+        <div>
+        <button type="button" class="btn btn-outline-secondary" id="submit">Send</button>
+      </div>
   </form>
+  </div>  
+</section>
+  </form>
+  <!-- FOOTER [JS Implemented] -->
+  <section id="FOOTER">
+    <footer class="footer" id="footer"></footer>
+  </section>
+
+<!-- FIN FOOTER -->
+
+  <script src="./js/footer.js" defer></script>
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

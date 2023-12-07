@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    font-family: 'Open Sans';
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor {
+  background-color:rgba(219, 51, 51, 0.796);
+}
+#navbarNavAltMarkup {
+    font-weight:bolder;
+    font-family:inherit;
+    padding:5px;
+    color: black;
+}
+#navbarNavAltMarkup :hover{
+    color:white;
+}
+#redonda img{
+    border-radius:95%;
+    display : block; /* establecer la propiedad display de la imagen en block y aplicar margin: 0 auto, que centra horizontalmente la imagen dentro de su contenedor.*/
+    border:8px solid rgba(219, 51, 51, 0.796); 
+    float: right;
+    margin-left: 25px;  
+}
+
+.introduccion h1 {
+    font-weight: bolder;
+    width: 100%;
+    font-family: 'Open Sans';
+    align-items: center;
+    font-size: xx-large;
+  
+
+}
+div.introduccion {
+  width: 75%;
+margin: 10px auto;
+margin-bottom: 100px;
+font-size: large;
+  color: #f3eeee;
+  padding: 15px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  align-items: center;
+}
+.main p{
+  font-size: x-large;
+  justify-content: center;
+  vertical-align: middle;
+}
+  #btncv{
+    
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 10px 20px;
+      border: 50px;
+      border-radius: 5px;
+      cursor: pointer;
+      background: linear-gradient(40deg,rgba(0, 0, 0, 0.834), rgba(219, 51, 51, 0.796), pink);
+    }
+    
+    
+  .navbar-brand img{
+    width: 350px;
+    height: 250px;
+    align-items: center;
+
+    justify-content: center;
+  }
+  @media only screen and (max-width: 320px) {
+    .navbar-brand img{
+      width: 320px;
+    }
+}
+.navbar-brand .container{
+  align-items: center;
+
+    justify-content: center;
+}
+
