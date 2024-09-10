@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .carousel-inner {
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Adjust as needed */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  

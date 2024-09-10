@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+body{
+  
+    font-family: 'Open Sans';
+}
+
+/*-------------------------------------------------------------
+# Home
+--------------------------------------------------------------*/
+#home {
+    width: 100%;
+    height: 80vh;
+ align-items: center;
+ padding-left: 50px;
+  }
+  #home h1 {
+    text-align: center;
+   
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .card-text{
+    justify-content: center;
+    align-items: baseline;
+    font-size: larger;
+  }
+  .img-fluid{
+    gap: 50px;
+  }
+
+
+
+/*-------------------------------------------------------------
+# ENDS HOME
+--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+# MISION
+--------------------------------------------------------------*/
+
+  #Mision{
+  }
+  
+ .card-title {
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+  }
+ .card-text{
+    text-align: center;
+
+  }
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+
+                /*Mobile*/
+.container{
+    display: grid;
+    gap: 0px;
+    grid-template-areas:
+    "navbar"
+    "header"
+    "main"
+    "sidebar"
+    "footer" ;
+    font-family: inherit;
+  }
+  /*Tablet*/
+  @media(min-width:768px){
+    .grid-container{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "navbar navbar"
+        "header header"
+        "main main"
+        "sidebar sidebar"
+        "footer footer";
+    }
+  }
+  /*Desktop*/
+  @media(min-width:900px){
+    .grid-container{
+        grid-template-columns: auto ;
+        grid-template-rows:  auto;
+        grid-template-areas: 
+        "navbar navbar navbar"
+        "header header header"
+        "main main main"
+        "sidebar sidebar sidebar"
+        "footer footer footer";
+    }
+  }
